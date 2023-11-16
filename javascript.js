@@ -4,6 +4,7 @@ const startButton = document.querySelector(".btn");
 const threeButtons = document.querySelector(".selection");
 startButton.addEventListener("click", () => {
     threeButtons.style.display = "flex";
+    startButton.remove();
 }
 )
 
