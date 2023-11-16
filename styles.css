@@ -1,0 +1,71 @@
+body {
+    background-color:#FFF6F4;
+    font-family: 'Titan One', sans-serif;   
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #FF0060;
+    font-style: oblique;
+    text-shadow: 3px 0 black;
+}
+
+.startText {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.imageColor {
+    filter: invert(13%) sepia(63%) saturate(7459%) hue-rotate(331deg) brightness(98%) contrast(105%);
+}
+
+.startButton {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.btn {
+    border-radius: 5px;
+    border-color: #663D4D;
+    background-color: #993D60;
+    color: white;
+    font-family: 'Titan One', sans-serif;  
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.selection {
+    display: none;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.button {
+    cursor: pointer;
+    border: 5px solid #CC2967;
+    font-family: 'Titan One', sans-serif;  
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    text-shadow: 3px 0 #DBEDF3;
+    margin: 10px;
+}
+
+.scissors {
+    background-image: url(./images/Schere.png);
+    background-size: 100px;
+}
+
+.rock {
+    background-image: url(./images/Stein.png); 
+    background-size: 100px;
+}
+
+.paper {
+    background-image: url(./images/Papier.png);
+    background-size: 135px;
+}

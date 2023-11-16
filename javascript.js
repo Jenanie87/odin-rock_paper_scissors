@@ -1,3 +1,13 @@
+// Add 3 buttons
+
+const startButton = document.querySelector(".btn");
+const threeButtons = document.querySelector(".selection");
+startButton.addEventListener("click", () => {
+    threeButtons.style.display = "flex";
+}
+)
+
+
 let playerScore = 0;
 let ComputerScore = 0;
 
@@ -59,3 +69,6 @@ for (let i = 0; i < 5; i++) {
 // Show score
 
 alert (`Players Score: ${playerScore} \nComputers Score: ${ComputerScore}`);
+
+
+
